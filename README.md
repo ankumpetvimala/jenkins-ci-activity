@@ -130,7 +130,7 @@ The pipeline initially failed in later stages because of Windows/Linux command i
 
 ## 9. Submission 
 
-Save screenshots and add them to an `evidence/` folder in the repository, or submit them separately as required.
+Save screenshots and add them to an `Screenshots/` folder in the repository, or submit them separately as required.
 
 - [ ] GitHub repository link
 - [ ] GitHub Webhook configuration and successful delivery
