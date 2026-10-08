@@ -24,8 +24,9 @@ pipeline {
 
         stage('Validation') {
             steps {
-                bat 'test -f pom.xml'
-                bat 'test -f src/main/java/App.java'
+                bat 'if exist pom.xml (echo pom.xml found) else (echo pom.xml missing & exit /b 1)'
+                bat 'if exist target (echo target folder found) else (echo target folder missing & exit /b 1)'
+                bat 'if exist src\\main\\java\\App.java (echo App.java found) else (echo App.java missing & exit /b 1)'
                 echo 'Additional validation completed successfully.'
             }
         }
