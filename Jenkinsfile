@@ -12,20 +12,20 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'mvn clean package -DskipTests'
+                bat 'mvn clean package -DskipTests'
             }
         }
 
         stage('Test') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
 
         stage('Validation') {
             steps {
-                sh 'test -f pom.xml'
-                sh 'test -f src/main/java/App.java'
+                bat 'test -f pom.xml'
+                bat 'test -f src/main/java/App.java'
                 echo 'Additional validation completed successfully.'
             }
         }
