@@ -1,6 +1,6 @@
 public class App {
     public static String message() {
-        return "Hello Jenkins CI";
+        return "Hello DevOps";
     }
 
     public static void main(String[] args) {
