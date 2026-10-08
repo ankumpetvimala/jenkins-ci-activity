@@ -128,7 +128,7 @@ The pipeline initially failed in later stages because of Windows/Linux command i
 4. Open Jenkins and verify that a new build starts automatically.
 5. Review the stage results and Console Output.
 
-## 9. Submission Evidence Checklist
+## 9. Submission 
 
 Save screenshots and add them to an `evidence/` folder in the repository, or submit them separately as required.
 
@@ -140,18 +140,16 @@ Save screenshots and add them to an `evidence/` folder in the repository, or sub
 - [ ] Additional Validation stage
 - [ ] Final successful run after fixing the error
 
-Suggested evidence filenames:
+Suggested filenames:
 
 ```text
-evidence/
+Screenshots/
 ├── github-webhook.png
 ├── pipeline-success.png
 ├── pipeline-failure.png
 ├── console-output-error.png
 └── validation-stage.png
 ```
-
-Only include screenshots that you have actually captured. Do not claim the webhook triggered automatically unless you verified it.
 
 ## 10. Conclusion
 
